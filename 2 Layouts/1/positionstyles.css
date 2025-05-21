@@ -11,3 +11,34 @@ body{
  	color: #FFF;
  }
 
+ #static {
+	position: static;
+	background-color: #AABBCC;
+}
+
+ #relative {
+	position: relative;
+	background-color: #BBCCDD;
+	left: 20px;
+	top: -10px;
+	bottom: 1px;
+	right: 1px;
+ }
+
+ #absolute {
+	position: absolute;
+	background-color: #335577;
+	right: 0px;
+	top: 10px;
+	height: 100px;
+	width: 100px;
+ }
+
+ #fixed {
+	position: fixed;
+	background-color: #00FFAA;
+	top: 40%;
+	left: 40%;
+	
+ }
+

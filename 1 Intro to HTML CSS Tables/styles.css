@@ -1,0 +1,84 @@
+h1, h2 {
+  box-shadow: 5px 5px 5px black;
+  text-shadow: 2px 2px 4px #000;
+  color: red;
+}
+
+body {
+  /* background-color: yellow; */
+  background: url("images/background.jpg");
+  background-repeat: none;
+  width: 300px;
+  font-family: "Tagesschrift", system-ui;
+  margin: 0px auto;
+}
+
+#content table {
+  border: 1px solid black;
+  margin: 0px 30px;
+  color: lightgreen;
+  text-align: center;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+#content table thead th {
+  background-color: #000;
+  padding: 9px 24px;
+  font-size: 18px;
+  text-shadow: 1px 1px 4px white;
+}
+
+#content table tbody th {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 9px 24px;
+  background-color: aqua;
+}
+
+#content table tbody td{
+  padding: 9px 24px;
+  color:blueviolet;
+}
+
+#content table tbody tr:nth-child(even){
+  background-color: grey;
+}
+
+#content table tbody tr:hover{
+  background-color: white;
+}
+
+#content table caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0px;
+  color: white;
+
+}
+
+.example-div {
+  width: 80%;
+  margin: 5px auto;
+  padding: 5px;
+  background-color: #FFF;
+  border: 4px #000 dashed;
+  border-radius: 20px;
+}
+
+#first-div {
+  background-color: rebeccapurple
+}
+
+a:active {
+  color: orange;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
