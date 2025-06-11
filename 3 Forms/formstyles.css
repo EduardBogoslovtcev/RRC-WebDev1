@@ -27,6 +27,11 @@ form#payment fieldset{
 	margin-bottom:20px;
 }
 
+form#payment input[type="checkbox"] {
+	width: 25px;
+	height: 25px;
+}
+
 form#payment fieldset:last-of-type{
 	margin-bottom:0px;
 }
@@ -124,3 +129,15 @@ form#payment button {
 	text-transform: uppercase;
 }
 
+
+form#payment input:not([type="tel"]) {
+	background-color: rgb(193, 235, 193);
+}
+
+form#payment ol li:first-of-type {
+	border-color: red;
+}
+
+form#payment ol li:last-of-type {
+	border-color: black;
+}
